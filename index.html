@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Minigame</title>
+    <style>
+        body { text-align: center; font-family: Arial; background: #667eea; color: white; }
+        canvas { border: 3px solid white; background: #87ceeb; display: block; margin: 20px auto; }
+        button { padding: 10px 20px; font-size: 1.1em; }
+    </style>
+</head>
+<body>
+    <h1>🛒 Supermarket Minigame</h1>
+    <div>Score: <span id="score">0</span> | Time: <span id="timer">60</span>s</div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <button id="startBtn">Start Game</button>
+    <script src="game.js"></script>
+</body>
+</html>
